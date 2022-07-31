@@ -35,7 +35,7 @@ jobs:
         target_repo_token: ${{ secrets.GITHUB_TOKEN }}
         upstream_sync_branch: master
         upstream_sync_repo: UniversalRobots/Universal_Robots_ROS_Driver
-        upstream_repo_access_token: ${{ secrets.UPSTREAM_REPO_SECRET }}
+        # upstream_repo_access_token: ${{ secrets.UPSTREAM_REPO_SECRET }}
 
         # Set test_mode true to run tests instead of the true action!!
         test_mode: false
